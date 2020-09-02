@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;450;500;550;600;650;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+      font-family: "montserrat";
+      background-color: #050b1b;
+}
+/*HEADER*/
+
+
+.header {
+  width: 100%;
+  height: 10%;
+  display: block;
+  background: #06153b;
+   overflow: visible;
+
+}
+
+.inner_header{
+  overflow: hidden;
+  width: 60%;
+  height:10%;
+  display: block;
+  margin: 0 auto;
+  padding-right: 50px;
+}
+
+.logo_container img {
+ height: 100%;
+ width: 250px;
+ display: table;
+ float: left;
+ vertical-align: middle;
+ padding-left: 15px;
+ }
+ .navigation
+ {
+ float: right;
+ height: 100%;
+
+ }
+ .navigation a {
+   text-decoration: none;
+   list-style: none;
+   height: 100%;
+   display: table;
+   float: left;
+
+   padding-right: 80px;
+ }
+
+ .navigation a li {
+   font-weight: 500;
+   display: table-cell;
+   color: white;
+   vertical-align: middle;
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 22px;
+   padding: 20px;
+ }
+ .navigation a li:hover {
+   font-weight:600;
+   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ .navigation a li:active {
+   font-weight:600;
+   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ .ID_container img {
+  height: 100%;
+  width: 90px;
+  display: block;
+  float: right;
+  vertical-align: middle;
+  padding: 20px;
+  padding-right: 30px;
+  transition: transform .2s;
+
+
+ }
+ .ID_container img:hover {
+    transform: scale(1.1);
+ }
+ /*info section*/
+ .info_section {
+   margin-top: 5%;
+   display:inline-flex;
+   width: 95%;
+   margin-left:2.5%;
+   padding-bottom: 3%;
+   border-style:solid;
+   border-width: 3px;
+   border-color: #ff4d38;
+   border-radius: 25px;
+   outline: none;
+     overflow: hidden;
+    margin-bottom: 50px;
+ }
+ .Last_Blocks {
+       display: block;
+       padding-left: 40px;
+       width:400px;
+ }
+ .PoolTime {
+
+   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 16px;
+   font-family:"Montserrat";
+   font-weight: 600;
+
+ }
+
+ .Poolname {
+   text-decoration: none;
+   margin-top: 30%;
+    text-align: left;
+    color:white;
+    font-size: 16px;
+    font-family:"Montserrat";
+    font-weight: 400;
+ }
+
+ .LastP {
+   color: white;
+   padding-top: 10px;
+   padding-left: 10%;
+ }
+ .infos {
+   display: flex;
+   padding-top: 65px;
+    text-align: left;
+    color:white;
+    font-size: 18px;
+    font-family:"Montserrat";
+    font-weight: 500;
+    width: 400px;
+    margin-left: 50px;
+
+ }
+ .SlotSection {
+   margin-top: 20px;
+   width: 100%;
+   float: right;
+
+ }
+
+ .Bar1,.Bar2,.Bar3,.Bar4,.Bar5 h4 {
+   color: white;
+   font-weight: 500;
+   padding-left: 25px;
+ }
+
+
+ .slot {
+   margin-top: 30px;
+    text-align: center;
+    color:white;
+    font-size: 23px;
+    font-family:"Montserrat";
+    font-weight: 500;
+
+ }
+
+.Pbar {
+     background-color: #fefefe;
+     border-radius: 3px;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+     height: 10px;
+     width: 80%;
+     max-width: 100%;
+
+ }
+
+ .SlotBar1,.SlotBar3 {
+     background: #ad5389;
+     background: -webkit-linear-gradient(to left, #ff8f01,#ff4d38);
+     background: linear-gradient(to left, #ff8f01,#ff4d38);
+     border-radius: 3px;
+     height: 10px;
+     width: 80%;
+     transition: width 0.5s ease-in;
+ }
+ .SlotBar4 {
+     background: #ad5389;
+     background: -webkit-linear-gradient(to left, #ff8f01,#ff4d38);
+     background: linear-gradient(to left, #ff8f01,#ff4d38);
+     border-radius: 3px;
+     height: 10px;
+     width: 50%;
+     transition: width 0.5s ease-in;
+ }
+ .SlotBar2 {
+     background: #ad5389;
+     background: -webkit-linear-gradient(to left, #ff8f01,#ff4d38);
+     background: linear-gradient(to left, #ff8f01,#ff4d38);
+     border-radius: 3px;
+     height: 10px;
+     width: 21%;
+     transition: width 0.5s ease-in;
+ }
+
+
+/*info section*/
+.OurMission h1,.OurServices h1,.WhoAreWe h1 {
+  font-weight: 600;
+}
+.WhoAreWe {
+  padding-left: 5%;
+  float: left;
+  color : white;
+  width:60%;
+  font-size: 18px;
+}
+.OurMission {
+  padding-right: 5%;
+  padding-top: 80px;
+  float: right;
+  color : white;
+  width:60%;
+  font-size: 18px;
+}
+.OurServices {
+  padding-left: 5%;
+  float: left;
+  color : white;
+  width:60%;
+  font-size: 18px;
+  margin-bottom: 150px;
+}
+/*footer*/
+
+.Footer {
+  display: grid;
+  width: 100%;
+  height: 20%;
+  background-color: #06153b;
+  grid-template-columns: 32% 40% 0% 28%;
+  padding-bottom: 25px;
+
+
+}
+
+
+.Email  {
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 15px;
+}
+
+
+.Email input {
+  width: 15vw;
+  height: 30px;
+  color: white;
+  font-family: "montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 15px;
+  background-color: #06153b;
+  border-style:solid;
+  border-width: 3px;
+  border-color: #ff4d38;
+  border-radius: 15px;
+  outline: none;
+}
+
+.Email button {
+  width: 10vw;
+  padding-left: 15px;
+  border: none;
+  background: none;
+  color: white;
+  font-family: "montserrat";
+  font-size: 22px;
+  font-weight: 500;
+  outline: none;
+
+}
+.Email button:hover{
+  transition: 0.3s;
+  background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.FooterTabs {
+  padding-left: 0px;
+  padding-top: 25px;
+  width: 30vw;
+  display: grid;
+}
+.Services, .Team , .Resources {
+  padding-right: 10px;
+}
+
+
+.Tab1 ,.Tab2 , .Tab3{
+  color: white;
+  font-family: "montserrat";
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.FooterTabs ul li a {
+  color: #eee;
+    text-decoration:none;
+}
+.FooterTabs ul {
+  padding-left: 25px;
+}
+
+.FooterTabs ul li a:hover{
+  transition: 0.3s;
+  color: orange;
+}
+
+.FooterTabs {
+  display: flex;
+  padding-left: 10px;
+  flex: 2 1 auto;
+  flex-wrap: wrap;
+}
+
+
+.SocialIcons {
+  float: right;
+}
+.SocialIcons a img{
+  padding-right: 20px;
+  width: 50px;
+}
+.SocialIcons a img:hover {
+   transform: scale(1.1);
+}
+
+.Terms,.Privacy {
+  float: left;
+  display: block;
+  color: white;
+}
+.Terms:hover,.Privacy:hover {
+  color: grey;
+}
+.Part3 {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.Terms {
+  padding-right: 20px;
+}

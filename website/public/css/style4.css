@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;450;500;550;600;650;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+      font-family: "montserrat";
+      background-color: #06153b;
+}
+
+.form-box {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #050b1b;
+  padding: 5px;
+  overflow: hidden;
+}
+
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  border-radius:30px;
+  position: relative;
+}
+
+.toggle-btn {
+  background: transparent;
+  color: white;
+  font-weight: 500;
+  padding: 10px 25px;
+  position: relative;
+  border :0;
+  outline :none;
+  position: relative;
+}
+
+#btn {
+ top: 0;
+ left: 0;
+ position: absolute;
+ width: 110px;
+ height: 100%;
+ background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+ border-radius: 30px;
+ transition: 0.5s;
+
+
+}
+
+.input-group {
+  color: white;
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+
+
+
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top:0;
+  border-right: 0;
+  border-bottom:1px solid #ff4d38;
+  outline:none;
+  background: transparent;
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor:pointer;
+  display: block;
+  margin:25px auto;
+  background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+  border:0;
+  outline: none;
+  border-radius: 30px;
+}
+
+
+
+.checkbox {
+  position: relative;
+}
+
+
+span {
+  font-size: 12px;
+position: relative;
+}
+
+
+
+#login {
+  left:50px;
+}
+
+#register {
+  left:450px;
+}
+.Footer {
+  display: grid;
+  width: 100%;
+  height: 20%;
+  background-color: #050b1b;
+  grid-template-columns: 32% 40% 0% 28%;
+  padding-bottom: 25px;
+
+
+}
+
+
+.Email  {
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 15px;
+}
+
+
+.Email input {
+  width: 15vw;
+  height: 30px;
+  color: white;
+  font-family: "montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 15px;
+  background:transparent;
+  border-style:solid;
+  border-width: 3px;
+  border-color: #ff4d38;
+  border-radius: 15px;
+  outline: none;
+}
+
+.Email button {
+  width: 10vw;
+  padding-left: 15px;
+  border: none;
+  background: none;
+  color: white;
+  font-family: "montserrat";
+  font-size: 22px;
+  font-weight: 500;
+  outline: none;
+
+}
+.Email button:hover{
+  transition: 0.3s;
+  background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.FooterTabs {
+  padding-left: 0px;
+  padding-top: 25px;
+  width: 30vw;
+  display: grid;
+}
+.Services, .Team , .Resources {
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+
+.Tab1 ,.Tab2 , .Tab3{
+  color: white;
+  font-family: "montserrat";
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.FooterTabs ul li a {
+  color: #eee;
+    text-decoration:none;
+}
+.FooterTabs ul {
+  padding-left: 25px;
+}
+
+.FooterTabs ul li a:hover{
+  transition: 0.3s;
+  color: orange;
+}
+
+.FooterTabs {
+  display: flex;
+  padding-left: 5px;
+  flex: 2 1 auto;
+  flex-wrap: wrap;
+}
+
+
+.SocialIcons {
+  padding-top: 15%;
+  float: right;
+}
+.SocialIcons a img{
+  padding-right: 20px;
+  width: 50px;
+}
+.SocialIcons a img:hover {
+   transform: scale(1.1);
+}
+
+.Terms,.Privacy {
+  float: left;
+  display: block;
+  color: white;
+}
+.Terms:hover,.Privacy:hover {
+  color: grey;
+}
+.Part3 {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.Terms {
+  padding-right: 20px;
+}

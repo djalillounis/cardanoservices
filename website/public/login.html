@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Cardano Services</title>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="style4.css"/>
+  </head>
+  <body>
+      <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+            <span>Remember Password</span><input type="checkbox" class="checkbox">
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <form id="register" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="email" class="input-field" placeholder="Enter Email" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+            <span>I agree to terms and conditions</span><input type="checkbox" class="checkbox">
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+
+        </div>
+        <!--FOOTER-->
+
+        <div class="Footer">
+            <div class="Email">
+              <input type="email" name="E-mail" value="Enter your Email..." >
+            <button type="button" name="Subscribe">Subscribe</button>
+            </div>
+            <div class="FooterTabs">
+               <ul class="Services">
+                 <li class="Tab1">Services</li>
+                 <li><a href="#"> Service 1</li>
+                 <li><a href="#"> Service 2</li>
+                 <li><a href="#"> Service 3</li>
+               </ul>
+               <ul class="Team">
+                 <li class="Tab2">Team</li>
+                 <li><a href="#"> Dev Team</li>
+                 <li><a href="#"> Blog</li>
+                 <li><a href="#"> Documentation</li>
+               </ul>
+               <ul class="Resources">
+                 <li class="Tab3">Resources</li>
+                 <li><a href="#">Support</li>
+                 <li><a href="#"> Brand assets</li>
+                 <li><a href="#"> Service 3</li>
+               </ul>
+            </div>
+            <div class="Part3">
+
+            <div class="SocialIcons">
+                <a href="#"><img src="images\twitter.png" alt="ID"><a>
+                <a href="#"><img src="images\github.png" alt="ID"><a>
+                <a href="#"><img src="images\linkedin.png" alt="ID"><a>
+                  <div class="Signs">
+
+                  <a href="#" class="Terms">Terms</a>
+                  <a href="#" class="Privacy">Privacy</a>
+                  </div>
+        </div>
+
+          </div>
+          </div>
+    <script>
+    var x= document.getElementById("login")
+    var y= document.getElementById("register")
+    var z= document.getElementById("btn")
+
+    function register() {
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+
+    }
+    function login() {
+      x.style.left = "50px";
+      y.style.left = "450px";
+      z.style.left = "0px";
+
+    }
+
+    </script>
+
+  </body>
+</html>

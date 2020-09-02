@@ -96,18 +96,21 @@ body {
 /*info section*/
 .info_section {
   margin-top: 5%;
-  display: grid;
+  display:inline-flex;
   width: 90%;
   margin-left:5%;
-  height: 250px;
+  padding-bottom: 3%;
   border-style:solid;
   border-width: 3px;
   border-color: #ff4d38;
   border-radius: 25px;
   outline: none;
-    grid-template-columns: 30% 25% 45%;
+    overflow: hidden;
 }
-
+.Last_Pools {
+      display: block;
+      padding-left: 50px;
+}
 .PoolTime {
 
   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
@@ -120,7 +123,6 @@ body {
 }
 
 .Poolname {
-  padding-left: 50px;
   text-decoration: none;
   margin-top: 30%;
    text-align: left;
@@ -136,7 +138,8 @@ body {
   padding-left: 5%;
 }
 .infos {
-  padding-left: 100px;
+  display: flex;
+  padding-left: 50px;
   padding-top: 65px;
    text-align: left;
    color:white;
@@ -147,8 +150,9 @@ body {
 }
 .SlotSection {
   margin-top: 25px;
-
-
+  padding-left: 5%;
+  width: 50%;
+  display: block;
 
 
 }
@@ -238,7 +242,7 @@ td{
 
 .Email  {
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 10%;
   padding-right: 15px;
 }
 

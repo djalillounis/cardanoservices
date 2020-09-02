@@ -4,7 +4,7 @@ const app = express()
 var path = require('path')
 
 
-app.use(express.static('public'))
+app.use(express.static('website/public'))
 
 
 

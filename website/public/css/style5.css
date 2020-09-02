@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;450;500;550;600;650;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+      font-family: "montserrat";
+      background-color: #050b1b;
+}
+/*HEADER*/
+
+
+.header {
+  width: 100%;
+  height: 10%;
+  display: block;
+  background: #06153b;
+   overflow: visible;
+
+}
+
+.inner_header{
+  overflow: hidden;
+  width: 60%;
+  height:10%;
+  display: block;
+  margin: 0 auto;
+  padding-right: 50px;
+}
+
+.logo_container img {
+ height: 100%;
+ width: 250px;
+ display: table;
+ float: left;
+ vertical-align: middle;
+ padding-left: 15px;
+ }
+ .navigation
+ {
+ float: right;
+ height: 100%;
+
+ }
+ .navigation a {
+   text-decoration: none;
+   list-style: none;
+   height: 100%;
+   display: table;
+   float: left;
+
+   padding-right: 80px;
+ }
+
+ .navigation a li {
+   font-weight: 500;
+   display: table-cell;
+   color: white;
+   vertical-align: middle;
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 22px;
+   padding: 20px;
+ }
+ .navigation a li:hover {
+   font-weight:600;
+   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ .navigation a li:active {
+   font-weight:600;
+   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ .ID_container img {
+  height: 100%;
+  width: 90px;
+  display: block;
+  float: right;
+  vertical-align: middle;
+  padding: 20px;
+  padding-right: 30px;
+  transition: transform .2s;
+
+
+ }
+ .ID_container img:hover {
+    transform: scale(1.1);
+ }
+
+
+
+
+ /*Pool info*/
+
+ .PoolInfo {
+   margin-top:5%;
+   margin-left: 5%;
+   margin-bottom: 5%;
+   width: 90%;
+   background-color: #06153b;
+   color: white;
+   padding: 2.5%;
+
+
+ }
+ .Tabs {
+   display: flex;
+   align-items: center;
+ }
+ .Backbtn {
+   font-size: 25px;
+   font-weight:700;
+   background: -webkit-linear-gradient(left,#ff8f01,#ff4d38);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   transition: ease;
+ }
+.Backbtn {
+
+}
+ }
+.PoolInfo h6 {
+  color: #ddd;
+}
+.MainInfos {
+  width: 45%;
+   border : solid 2px #ff4d38;
+   border-radius: 10px;
+}
+.titles {
+  float: left;
+  font-size: 14px;
+   margin: 25px;
+   padding: 5px;
+
+}
+
+
+.infos {
+  text-align: right;
+  color: #ddd;
+  font-size: 14px;
+   margin: 25px;
+   padding: 5px;
+}
+
+.MainInfos2 {
+  margin-left: 10%;
+  float: right;
+  width: 45%;
+   border : solid 2px #ff4d38;
+   border-radius: 10px;
+}
