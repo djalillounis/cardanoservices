@@ -48,17 +48,48 @@
 <page class="OurPool">
   <!--Last Blocks-->
 <div class="info_section">
-<div class="LPools">
-<h3 class="LastP"> Last Blocks </h3>
-<div class="Last_Blocks">
- <a class="Poolname">0fdSa3395Xs has been created &nbsp</a><a class="PoolTime">02 min <br> </a>
- <a class="Poolname">0fdSa3395Xs has been created &nbsp</a><a class="PoolTime">14 min <br></a>
- <a class="Poolname">0fdSa3395Xs has been created &nbsp</a><a class="PoolTime">21 min <br> </a>
- <a class="Poolname">0fdSa3395Xs has been created &nbsp</a><a class="PoolTime">28 min <br></a>
- <a class="Poolname">0fdSa3395Xs has been created &nbsp</a><a class="PoolTime">41 min <br> </a>
- <a class="Poolname">0fdSa3395Xs has been created &nbsp</a><a class="PoolTime">1 Hour <br></a>
-</div>
-</div>
+  <div class="PopUp">
+    <span>Donate To Us :</span>
+      <div class="ADA">
+         <div class="ImageHolder">
+           <img src="images\ADA.png" alt="ADA">
+ 
+         </div>
+         <input type="text" id="Hash1" value="addr1q96ae96ym4tlaalwul3m25lzawtd9v9g24rx3fmwh8j3egyvhxxnc8q3wa7vgsva0wu9c0rkhuwjd59etyeh37j3zfnsv652kr
+   ">
+ 
+         <div class="CopyHolder1">
+           <img src="images\copy.png" id="copy1" onclick="myFunction1()">
+ 
+         </div>
+ 
+      </div>
+      <div class="Bitcoin">
+        <div class="ImageHolder">
+          <img src="images\Bitcoin.png" alt="Bitcoin">
+        </div>
+        <input type="text" id="Hash2" value="bc1q38el3t3n6te6l6ktgd8e555csxc0fv4qgkn2s4">
+        <div class="CopyHolder2">
+          <img src="images\copy.png" ID="copy2" onclick="myFunction2()">
+ 
+        </div>
+ 
+      </div>
+      <div class="Lightcoin">
+        <div class="ImageHolder">
+          <img src="images\Lightcoin.png" alt="Lightcoin">
+        </div>
+        <input type="text" id="Hash3" value="LeLWJ6RoLnaGVfXARoDRvcddMpQw39Q8gB">
+ 
+        <div class="CopyHolder3">
+          <img src="images\copy.png" ID="copy3" onclick="myFunction3()">
+ 
+        </div>
+ 
+      </div>
+ 
+ 
+    </div>
    <!--Informations section-->
 <div class="infos">
    Epoch: &nbsp 500 <br>
@@ -146,7 +177,7 @@ Surprise steepest recurred landlord mr wandered amounted of. Continuing
 
 <div class="Footer">
     <div class="Email">
-      <input type="email" name="E-mail" value="Enter your Email..." >
+      <input type="email" name="E-mail" placeholder="Enter your Email..." onfocus="this.placeholder= ''">
     <button type="button" name="Subscribe">Subscribe</button>
     </div>
     <div class="FooterTabs">
@@ -172,9 +203,9 @@ Surprise steepest recurred landlord mr wandered amounted of. Continuing
     <div class="Part3">
 
     <div class="SocialIcons">
-        <a href="#"><img src="images\twitter.png" alt="ID"><a>
-        <a href="#"><img src="images\github.png" alt="ID"><a>
-        <a href="#"><img src="images\linkedin.png" alt="ID"><a>
+      <a href="#"><img src="images\twitter.png" alt="twitter"><a>
+        <a href="#"><img src="images\github.png" alt="github"><a>
+        <a href="#"><img src="images\linkedin.png" alt="linkdin"><a>
           <div class="Signs">
 
           <a href="#" class="Terms">Terms</a>
@@ -189,3 +220,26 @@ Surprise steepest recurred landlord mr wandered amounted of. Continuing
 
 
 </body>
+<script>
+  function myFunction1() {
+    var Hash1 = document.getElementById("Hash1");
+    Hash1.select();
+    Hash1.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: ");
+  }
+  function myFunction2() {
+    var Hash2 = document.getElementById("Hash2");
+    Hash2.select();
+    Hash2.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: ");
+  }
+  function myFunction3() {
+    var Hash1 = document.getElementById("Hash3");
+    Hash3.select();
+    Hash3.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: ");
+  }
+  </script>
