@@ -36,6 +36,7 @@
     <!--profile icon-->
   <div class="ID_container">
     <a href="login.html"><img src="images\ID.png" alt="ID"><a>
+    <a class="Donate" href="OurPool.html" id="DonateBtn"><img src="images\Donate.png" alt="donate"><a></a>
   </div>
     <!--navigation tabs-->
  <div class="inner_header">
@@ -43,6 +44,7 @@
     <a href="OurPool.html" target="_self"><li>Our Pool</li> </a>
     <a href="index.html" target="_self"><li>Network</li> </a>
     <a href="error.html" target="_self"><li>Explorer</li> </a>
+
 
    </div>
  </div>
@@ -93,12 +95,14 @@
     </div>
    <!--Informations section-->
 <div class="infos">
-
-   <h4 id= "Epo">Epoch:  <h4><br>
-   Total stake: &nbsp 200 <br>
-   Pledge: &nbsp 50 <br>
-   Block Fordge: &nbsp 50 <br>
-   Total Reward:&nbsp 50
+  <div class="Epoch"> <h4 id="Epo">Epoch: </h4></div>
+  <div class="Stake"><h4 id="Stake">Total Stake: </h4></div>
+  <div class="Pledge"><h4 id="Pledge">Pledge:&nbsp;&nbsp;</h4></div>
+  <div class="Fordge"><h4 id="Fordge">Block Fordge: </h4></div>
+  <div class="Reward"><h4 id="Reward">Total Reward: </h4></div>
+  <div class="Delegators"><h4 id="Delegators">Total Delegators: </h4></div>
+  <div class="Fixed Cost"><h4 id="Cost">Fixed Cost: </h4></div>
+  <div class="Margin"><h4 id="Margin">Margin: </h4></div>
 </div>
   <!--Slot Progress-->
 <div class="SlotSection">
@@ -111,21 +115,21 @@
 
        </h4>
   <div class="Pbar">
-    <div data-size="20" class="SlotBar1">
+    <div data-size="20" class="SlotBar1" id="Cbar">
     </div>
   </div>
 </div>
 <div class="Bar2">
      <h4 id ='MEMO'>Memory(</h4>
 <div class="Pbar">
-    <div data-size="20" class="SlotBar2">
+    <div data-size="20" class="SlotBar2" id="Mbar">
     </div>
 </div>
 </div>
 <div class="Bar3">
      <h4 id='Disk'>Disk Usage(</h4>
 <div class="Pbar">
-    <div data-size="20" class="SlotBar3">
+    <div data-size="20" class="SlotBar3" id="Dbar">
     </div>
 </div>
 </div>
@@ -181,51 +185,54 @@ Surprise steepest recurred landlord mr wandered amounted of. Continuing
 </page>
 <!--FOOTER-->
 
+
 <div class="Footer">
-    <div class="Email">
-      <input type="email" name="E-mail" placeholder="Enter your Email..." onfocus="this.placeholder= ''">
-    <button type="button" name="Subscribe">Subscribe</button>
-    </div>
-    <div class="FooterTabs">
-       <ul class="Services">
-         <li class="Tab1">Services</li>
-         <li><a href="#"> Service 1</li>
-         <li><a href="#"> Service 2</li>
-         <li><a href="#"> Service 3</li>
-       </ul>
-       <ul class="Team">
-         <li class="Tab2">Team</li>
-         <li><a href="#"> Dev Team</li>
-         <li><a href="#"> Blog</li>
-         <li><a href="#"> Documentation</li>
-       </ul>
-       <ul class="Resources">
-         <li class="Tab3">Resources</li>
-         <li><a href="#">Support</li>
-         <li><a href="#"> Brand assets</li>
-         <li><a href="#"> Service 3</li>
-       </ul>
-    </div>
-    <div class="Part3">
+  <div class="Email">
+    <input type="email" name="E-mail" placeholder="Enter your Email..." onfocus="this.placeholder= ''">
+  <button type="button" name="Subscribe">Subscribe</button>
+  </div>
+  <div class="FooterTabs">
+     <ul class="Services">
+       <li class="Tab1">Services</li>
+       <li><a href="#"> Service 1</li>
+       <li><a href="#"> Service 2</li>
+       <li><a href="#"> Service 3</li>
+     </ul>
+     <ul class="Team">
+       <li class="Tab2">Team</li>
+       <li><a href="#"> Dev Team</li>
+       <li><a href="#"> Blog</li>
+       <li><a href="#"> Documentation</li>
+     </ul>
+     <ul class="Resources">
+       <li class="Tab3">Resources</li>
+       <li><a href="#">Support</li>
+       <li><a href="#"> Brand assets</li>
+       <li><a href="#"> Service 3</li>
+     </ul>
+  </div>
+  <div class="Part3">
 
-    <div class="SocialIcons">
+  <div class="SocialIcons">
       <a href="#"><img src="images\twitter.png" alt="twitter"><a>
-        <a href="#"><img src="images\github.png" alt="github"><a>
-        <a href="#"><img src="images\linkedin.png" alt="linkdin"><a>
-          <div class="Signs">
+      <a href="#"><img src="images\github.png" alt="github"><a>
+      <a href="#"><img src="images\linkedin.png" alt="linkedin"><a>
+        <div class="Signs">
 
-          <a href="#" class="Terms">Terms</a>
-          <a href="#" class="Privacy">Privacy</a>
-          </div>
+        <a href="#" class="Terms">Terms</a>
+        <a href="#" class="Privacy">Privacy</a>
+        </div>
 </div>
 
-  </div>
-  </div>
+</div>
+</div>
 
 
 
 
 </body>
+</html>
+
 <script>
   function myFunction1() {
     var Hash1 = document.getElementById("Hash1");

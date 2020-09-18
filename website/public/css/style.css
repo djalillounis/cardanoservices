@@ -76,22 +76,27 @@ body {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
  }
- .ID_container img {
-  height: 100%;
-  width: 90px;
-  display: block;
-  float: right;
-  vertical-align: middle;
-  padding: 20px;
-  padding-right: 30px;
+ .ID_container  {
+  margin-right: 25px;
+  margin-top: 20px;
   transition: transform .2s;
-
-
+  float: right;
+ }
+ .ID_container img {
+  transition: transform .2s;
+  float: right;
+  height: 45px;
+ }
+ .ID_container img:first-child {
+  height:50px;
+  padding-left: 10px;
+ }
+ .ID_container img:last-child {
+  height:40px;
  }
  .ID_container img:hover {
     transform: scale(1.1);
  }
-
 
 /*info section*/
 .info_section {
@@ -303,7 +308,7 @@ td{
 
 .FooterTabs ul li a {
   color: #eee;
-    text-decoration:none;
+  text-decoration:none;
 }
 .FooterTabs ul {
   padding-left: 25px;
@@ -311,7 +316,7 @@ td{
 
 .FooterTabs ul li a:hover{
   transition: 0.3s;
-  color: orange;
+  color:pink;
 }
 
 .FooterTabs {
