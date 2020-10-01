@@ -20,7 +20,7 @@
 		"vat_id": "0000000"
 	}
  },
- "rss":"https:/cardanoservices.com/rss.xml",
+ "rss":"https:/cardanoservices.com/meta/rss.xml",
    "telegram-admin-handle": [
       "Jayloun",
       "cardanstaking"
