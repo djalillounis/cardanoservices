@@ -1,0 +1,29 @@
+{
+ "itn": {
+ "owner": "",
+ "witness": ""
+ },
+ 
+ "info": {
+  	"url_png_icon_64x64": "https://www.cardanoservices.com/meta/logo_64_64.png",
+
+	"social": {
+		"twitter_handle": "CardanoServices",
+		"telegram_handle": "cardanoservices"
+	},
+	"company": {
+		"name": "CardanoServices",
+		"addr": "N/A",
+		"city": "Berlin",
+		"country": "Germany",
+		"company_id": "0000000",
+		"vat_id": "0000000"
+	}
+ },
+ "rss":"https:/cardanoservices.com/rss.xml",
+   "telegram-admin-handle": [
+      "Jayloun",
+      "cardanstaking"
+   ]
+   
+}
